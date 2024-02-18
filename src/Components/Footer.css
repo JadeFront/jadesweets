@@ -1,0 +1,473 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Strike&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+
+@media screen and (max-width: 480px){
+    footer{
+        background-image: url('bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        padding: 3rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .suggestion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 75vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid #B19470;
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid #B19470;
+    }
+    .suggestion button{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid #B19470;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: #B19470;
+    }
+    .navigation-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .navigation-container a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        color: #B19470;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: #B19470;
+    }
+    .social-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .social-container a{
+        color: #EEEEEE;
+        background-color: #B19470;
+        padding: .4rem;
+        border-radius: 5px;
+        text-align: center;
+        border: solid #B19470 2px;
+    }
+    .social-container a:hover{
+        background-color: #EEEEEE;
+        color: #B19470;
+    }
+    .footer-end p{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: #B19470;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    footer{
+        background-image: url('bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding: 3rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .suggestion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 80vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid #B19470;
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid #B19470;
+    }
+    .suggestion button{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid #B19470;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: #B19470;
+    }
+    .navigation-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .navigation-container a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        color: #B19470;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: #B19470;
+    }
+    .social-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .social-container a{
+        color: #EEEEEE;
+        background-color: #B19470;
+        padding: .4rem;
+        border-radius: 5px;
+        border: solid #B19470 2px;
+    }
+    .social-container a:hover{
+        background-color: #EEEEEE;
+        color: #B19470;
+    }
+    .footer-end p{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: #B19470;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    footer{
+        background-image: url('bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding: 3rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .suggestion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 35vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid #B19470;
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid #B19470;
+    }
+    .suggestion button{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid #B19470;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: #B19470;
+    }
+    .navigation-container{
+        display: flex;
+        gap: 3rem;
+    }
+    .navigation-container a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: #B19470;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: #B19470;
+    }
+    .social-container{
+        display: flex;
+        gap: 2rem;
+    }
+    .social-container a{
+        color: #EEEEEE;
+        background-color: #B19470;
+        padding: .5rem;
+        border-radius: 5px;
+        border: solid #B19470 2px;
+    }
+    .social-container a:hover{
+        background-color: #EEEEEE;
+        color: #B19470;
+    }
+    .footer-end p{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: #B19470;
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 1025px){
+    footer{
+        background-image: url('bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        padding: 3rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .suggestion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 35vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid #B19470;
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid #B19470;
+    }
+    .suggestion button{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid #B19470;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: #B19470;
+    }
+    .navigation-container{
+        display: flex;
+        gap: 4rem;
+    }
+    .navigation-container a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: #B19470;
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: #B19470;
+    }
+    .social-container{
+        display: flex;
+        gap: 2rem;
+    }
+    .social-container a{
+        color: #EEEEEE;
+        background-color: #B19470;
+        padding: .5rem;
+        border-radius: 5px;
+        border: solid #B19470 2px;
+    }
+    .social-container a:hover{
+        background-color: #EEEEEE;
+        color: #B19470;
+    }
+    .footer-end p{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: #B19470;
+        text-align: center
+    }
+}

@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Strike&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+
+@media screen and (max-width: 480px){
+    nav{
+        background-image: url('bg.avif');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    header h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        text-align: center;
+        color: #B19470;
+    }
+    #check{
+        display: none;
+    }
+    #checked{
+        border: solid #B19470 2px;
+        border-radius: 50%;
+        color: #B19470;
+        width: 1rem;
+        padding: .8rem;
+        cursor: pointer;
+    }
+    #check:checked ~ ul{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul{
+        display: none;
+        top: 0;
+    }
+    .navbar li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 1rem 0;
+    }
+    .navbar a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #B19470;
+        padding-bottom: .5rem;
+    }
+    .navbar a:hover{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    nav{
+        background-image: url('bg.avif');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+    header h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #B19470;
+    }
+    #check{
+        display: none;
+    }
+    #checked{
+        border: solid #B19470 2px;
+        border-radius: 50%;
+        color: #B19470;
+        width: 1rem;
+        padding: .8rem;
+        cursor: pointer;
+    }
+    #check:checked ~ ul{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar ul{
+        display: none;
+        top: 0;
+    }
+    .navbar li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding: 1rem 0;
+    }
+    .navbar a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #B19470;
+        padding-bottom: .5rem;
+    }
+    .navbar a:hover{
+        text-decoration: underline;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    nav{
+        background-image: url('bg.avif');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    header h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #B19470;
+    }
+    #check, #checked, #close{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        gap: 5rem;
+    }
+    .navbar li{
+        list-style: none;
+    }
+    .navbar a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.3rem;
+        text-decoration: none;
+        color: #B19470;
+        padding-bottom: .5rem;
+    }
+    .navbar a:hover{
+        border-bottom: solid 1px #B19470;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    nav{
+        background-image: url('bg.avif');
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    }
+    header h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        color: #B19470;
+    }
+    #check, #checked, #close{
+        display: none;
+    }
+    .navbar ul{
+        display: flex;
+        gap: 10rem;
+    }
+    .navbar li{
+        list-style: none;
+    }
+    .navbar a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #B19470;
+        padding-bottom: .5rem;
+    }
+    .navbar a:hover{
+        border-bottom: solid 1px #B19470;
+    }
+}

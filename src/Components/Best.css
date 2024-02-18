@@ -1,0 +1,540 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Protest+Strike&family=Rowdies:wght@300;400;700&family=Satisfy&display=swap');
+
+@media screen and (max-width: 480px){
+    .bestseller-container{
+        background-image: url('bg.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .bestseller-intro{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #B19470;
+    }
+    .bestseller{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 100%;
+    }
+    .bestseller h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .bestseller p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .bestseller img{
+        max-width: 100%;
+    }
+    .bestcookie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        min-height: 70vh;
+        max-width: 60%;
+    }
+    .bestmacaron{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        min-height: 70vh;
+        max-width: 60%;
+    }
+    .bestcupcake{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        min-height: 70vh;
+        max-width: 60%;
+    }
+
+    .menu-container{
+        background-image: url('about1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;background-attachment: fixed;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        padding: 2rem 0 8rem 2rem ;
+    }
+    .menu h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.5rem;
+        text-align: center;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        text-align: center;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #F6F1F1;
+        max-width: 8rem;
+        padding: 1rem;
+        border: solid #F6F1F1 3px;
+    }
+    .menu a:hover{
+        background-color: #B19470;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .bestseller-container{
+        background-image: url('bg.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+    .bestseller-intro{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: #B19470;
+    }
+    .bestseller{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 100%;
+    }
+    .bestseller h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .bestseller p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .bestseller img{
+        max-width: 100%;
+    }
+    .bestcookie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        min-height: 70vh;
+        max-width: 60%;
+    }
+    .bestmacaron{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        min-height: 70vh;
+        max-width: 60%;
+    }
+    .bestcupcake{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        min-height: 70vh;
+        max-width: 60%;
+    }
+
+    .menu-container{
+        background-image: url('about1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;background-attachment: fixed;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 1rem;
+        padding: 2rem 0 8rem 2rem ;
+    }
+    .menu h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        text-align: center;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #F6F1F1;
+        max-width: 8rem;
+        padding: 1rem;
+        border: solid #F6F1F1 3px;
+    }
+    .menu a:hover{
+        background-color: #B19470;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    .bestseller-container{
+        background-image: url('bg.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        max-width: 100%;
+    }
+    .bestseller-intro{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        color: #B19470;
+    }
+    .bestseller{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 90%;
+    }
+    .bestseller h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.8rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .bestseller p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    .bestseller img{
+        max-width: 90%;
+    }
+    .bestcookie{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        min-height: 100vh;
+        max-width: 30%;
+    }
+    .bestmacaron{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        min-height: 100vh;
+        max-width: 30%;
+    }
+    .bestcupcake{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        min-height: 100vh;
+        max-width: 30%;
+    }
+
+    .menu-container{
+        background-image: url('about1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;background-attachment: fixed;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem 0 8rem 3rem ;
+    }
+    .menu h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4rem;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1.5rem;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+        text-decoration: none;
+        color: #F6F1F1;
+        max-width: 8rem;
+        padding: 1rem;
+        border: solid #F6F1F1 3px;
+    }
+    .menu a:hover{
+        background-color: #B19470;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .bestseller-container{
+        background-image: url('bg.avif');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        max-width: 100%;
+    }
+    .bestseller-intro{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 90%;
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3.5rem;
+        color: #B19470;
+    }
+    .bestseller{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        max-width: 90%;
+    }
+    .bestseller h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: #B19470;
+    }
+    .bestseller p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 1.5rem;
+    }
+    .bestseller img{
+        max-width: 90%;
+    }
+    .bestcookie{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        min-height: 100vh;
+        max-width: 30%;
+    }
+    .bestmacaron{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 2rem;
+        min-height: 100vh;
+        max-width: 30%;
+    }
+    .bestcupcake{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 2rem;
+        min-height: 100vh;
+        max-width: 30%;
+    }
+    .menu-container{
+        background-image: url('about1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;background-attachment: fixed;
+        width: 100%;
+        min-height: 60vh;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 2rem 0 8rem 5rem ;
+    }
+    .menu h1{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 5rem;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 2rem;
+        color: #F6F1F1;
+            -webkit-text-stroke-width: .5px;
+            -webkit-text-stroke-color: #B19470;
+    }
+    .menu a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1.2rem;
+        text-align: center;
+        text-decoration: none;
+        color: #F6F1F1;
+        max-width: 10rem;
+        padding: 1rem;
+        border: solid #F6F1F1 3px;
+    }
+    .menu a:hover{
+        background-color: #B19470;
+    }
+}
