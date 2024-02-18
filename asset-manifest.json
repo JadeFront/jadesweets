@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/jadesweets/static/css/main.5e9531ed.css",
+    "main.js": "/jadesweets/static/js/main.7528b02e.js",
+    "static/js/453.1904803f.chunk.js": "/jadesweets/static/js/453.1904803f.chunk.js",
+    "static/media/cookie.png": "/jadesweets/static/media/cookie.a7c53429b0fadbc12b68.png",
+    "static/media/bg-macarons.png": "/jadesweets/static/media/bg-macarons.3ffaf5d66b92da280f04.png",
+    "static/media/cupcake.png": "/jadesweets/static/media/cupcake.613ae4ed2813af1d3bb7.png",
+    "static/media/macaron.png": "/jadesweets/static/media/macaron.1947b18a49043b0cb81e.png",
+    "static/media/about1.jpg": "/jadesweets/static/media/about1.4e938ba359de97930af8.jpg",
+    "static/media/bg-cupcake.jpg": "/jadesweets/static/media/bg-cupcake.ef3a4fe825a60398aad2.jpg",
+    "static/media/x.jpg": "/jadesweets/static/media/x.5ae96195faf7c8516579.jpg",
+    "static/media/bg.jpg": "/jadesweets/static/media/bg.c6a9f5ea1b511b585948.jpg",
+    "static/media/revicons.eot": "/jadesweets/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/jadesweets/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/bg.avif": "/jadesweets/static/media/bg.14207c27abd1f2ce9351.avif",
+    "static/media/revicons.woff": "/jadesweets/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo.svg": "/jadesweets/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/slick.svg": "/jadesweets/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/jadesweets/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/jadesweets/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/jadesweets/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/jadesweets/index.html",
+    "main.5e9531ed.css.map": "/jadesweets/static/css/main.5e9531ed.css.map",
+    "main.7528b02e.js.map": "/jadesweets/static/js/main.7528b02e.js.map",
+    "453.1904803f.chunk.js.map": "/jadesweets/static/js/453.1904803f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e9531ed.css",
+    "static/js/main.7528b02e.js"
+  ]
+}
