@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/jadesweets/static/css/main.b24c9c3f.css",
+    "main.js": "/jadesweets/static/js/main.184c05bb.js",
+    "static/js/453.1904803f.chunk.js": "/jadesweets/static/js/453.1904803f.chunk.js",
+    "static/media/macarons.webp": "/jadesweets/static/media/macarons.57d47e2c54095a93121b.webp",
+    "static/media/cookies.webp": "/jadesweets/static/media/cookies.aa52e3b17d5887f24910.webp",
+    "static/media/bg-cookies.jpg": "/jadesweets/static/media/bg-cookies.792ac711a95d450f0c00.jpg",
+    "static/media/cupcake.webp": "/jadesweets/static/media/cupcake.63d58b73033f5809fba9.webp",
+    "static/media/bg-cupcakes.jpg": "/jadesweets/static/media/bg-cupcakes.d1ba0580b4675fb08090.jpg",
+    "static/media/bg-macarons.jpg": "/jadesweets/static/media/bg-macarons.f661271b51cc71997153.jpg",
+    "static/media/bg-2.jpg": "/jadesweets/static/media/bg-2.4e938ba359de97930af8.jpg",
+    "static/media/bg-footer.jpg": "/jadesweets/static/media/bg-footer.c6a9f5ea1b511b585948.jpg",
+    "static/media/bg-1.webp": "/jadesweets/static/media/bg-1.c51a592f1273c00258e8.webp",
+    "static/media/revicons.eot": "/jadesweets/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/jadesweets/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/jadesweets/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/bg.webp": "/jadesweets/static/media/bg.fd8939c44d9430b80071.webp",
+    "index.html": "/jadesweets/index.html",
+    "main.b24c9c3f.css.map": "/jadesweets/static/css/main.b24c9c3f.css.map",
+    "main.184c05bb.js.map": "/jadesweets/static/js/main.184c05bb.js.map",
+    "453.1904803f.chunk.js.map": "/jadesweets/static/js/453.1904803f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b24c9c3f.css",
+    "static/js/main.184c05bb.js"
+  ]
+}
