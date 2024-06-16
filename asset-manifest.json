@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jadesweets/static/css/main.b24c9c3f.css",
-    "main.js": "/jadesweets/static/js/main.184c05bb.js",
+    "main.js": "/jadesweets/static/js/main.7836f4e9.js",
     "static/js/453.1904803f.chunk.js": "/jadesweets/static/js/453.1904803f.chunk.js",
     "static/media/macarons.webp": "/jadesweets/static/media/macarons.57d47e2c54095a93121b.webp",
     "static/media/cookies.webp": "/jadesweets/static/media/cookies.aa52e3b17d5887f24910.webp",
@@ -18,11 +18,11 @@
     "static/media/bg.webp": "/jadesweets/static/media/bg.fd8939c44d9430b80071.webp",
     "index.html": "/jadesweets/index.html",
     "main.b24c9c3f.css.map": "/jadesweets/static/css/main.b24c9c3f.css.map",
-    "main.184c05bb.js.map": "/jadesweets/static/js/main.184c05bb.js.map",
+    "main.7836f4e9.js.map": "/jadesweets/static/js/main.7836f4e9.js.map",
     "453.1904803f.chunk.js.map": "/jadesweets/static/js/453.1904803f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b24c9c3f.css",
-    "static/js/main.184c05bb.js"
+    "static/js/main.7836f4e9.js"
   ]
 }
