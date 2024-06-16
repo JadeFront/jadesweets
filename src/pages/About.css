@@ -1,0 +1,337 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font-1: 'Satisfy', cursive;
+    --font-2: 'Poppins', sans-serif;
+    --font-3: 'Protest Revolution', sans-serif;
+    --color-1: #F8F4E1;
+    --color-2: #FED8B1;
+    --color-3: #543310;
+    --color-4: #A67B5B;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+@media screen and (max-width: 480px){
+    .about {
+        background-image: url('./bg.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+        grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+        max-width: 100%;
+        background-color: var(--color-1);
+        border-radius: 20px;
+    }
+    .grid {
+        border: solid 5px var(--color-1);
+        border-radius: 20px;
+    }
+    .grid-1 {
+        grid-column: 1 / 6;
+        grid-row: 1 / 7;
+
+        background-image: url('./bg-cupcakes.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .grid-2 {
+        grid-column: 6 / 10;
+        grid-row: 1 / 8;
+
+        background-image: url('./bg-macarons.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 10;
+    }
+    .grid-3 {
+        grid-column: 1 / 10;
+        grid-row: 7 / 13;
+
+        background-image: url('./bg-cookies.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-info {
+        padding: 1rem 1rem 0 1rem;
+    }
+    .about-info h5, h1, p{
+        text-align: start;
+    }
+    .about-info h5 {
+        font-family: var(--font-1);
+        font-size: 1rem;
+        color: var(--color-3);
+    }
+    .about-info h1 {
+        font-family: var(--font-3);
+        font-size: 3rem;
+        color: var(--color-4);
+    }
+    .about-info p {
+        font-family: var(--font-2);
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .about {
+        background-image: url('./bg.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0 9rem;
+    }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+        background-color: var(--color-1);
+        border-radius: 20px;
+    }
+    .grid {
+        border: solid 5px var(--color-1);
+        border-radius: 20px;
+    }
+    .grid-1 {
+        grid-column: 1 / 6;
+        grid-row: 1 / 7;
+
+        background-image: url('./bg-cupcakes.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .grid-2 {
+        grid-column: 6 / 10;
+        grid-row: 1 / 8;
+
+        background-image: url('./bg-macarons.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 10;
+    }
+    .grid-3 {
+        grid-column: 1 / 10;
+        grid-row: 7 / 13;
+
+        background-image: url('./bg-cookies.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-info {
+        margin: 0 0 0 1rem;
+    }
+    .about-info h5, h1, p{
+        text-align: start;
+    }
+    .about-info h5 {
+        font-family: var(--font-1);
+        font-size: 1rem;
+        color: var(--color-3);
+    }
+    .about-info h1 {
+        font-family: var(--font-3);
+        font-size: 3rem;
+        color: var(--color-4);
+    }
+    .about-info p {
+        font-family: var(--font-2);
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    .about {
+        background-image: url('./bg.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 70%;
+    }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+        background-color: var(--color-1);
+        border-radius: 20px;
+    }
+    .grid {
+        border: solid 5px var(--color-1);
+        border-radius: 20px;
+    }
+    .grid-1 {
+        grid-column: 1 / 6;
+        grid-row: 1 / 7;
+
+        background-image: url('./bg-cupcakes.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .grid-2 {
+        grid-column: 6 / 10;
+        grid-row: 1 / 8;
+
+        background-image: url('./bg-macarons.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 10;
+    }
+    .grid-3 {
+        grid-column: 1 / 10;
+        grid-row: 7 / 13;
+
+        background-image: url('./bg-cookies.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-info {
+        margin: 0 0 0 1rem;
+    }
+    .about-info h5, h1, p{
+        text-align: start;
+    }
+    .about-info h5 {
+        font-family: var(--font-1);
+        font-size: 1rem;
+        color: var(--color-3);
+    }
+    .about-info h1 {
+        font-family: var(--font-3);
+        font-size: 3rem;
+        color: var(--color-4);
+    }
+    .about-info p {
+        font-family: var(--font-2);
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    .about {
+        background-image: url('./bg.webp');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5rem 0;
+    }
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 70%;
+    }
+    .about-grid {
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+        background-color: var(--color-1);
+        border-radius: 20px;
+    }
+    .grid {
+        border: solid 5px var(--color-1);
+        border-radius: 20px;
+    }
+    .grid-1 {
+        grid-column: 1 / 6;
+        grid-row: 1 / 7;
+
+        background-image: url('./bg-cupcakes.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .grid-2 {
+        grid-column: 6 / 10;
+        grid-row: 1 / 8;
+
+        background-image: url('./bg-macarons.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        z-index: 10;
+    }
+    .grid-3 {
+        grid-column: 1 / 10;
+        grid-row: 7 / 13;
+
+        background-image: url('./bg-cookies.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .about-info {
+        margin: 0 0 0 1rem;
+    }
+    .about-info h5, h1, p{
+        text-align: start;
+    }
+    .about-info h5 {
+        font-family: var(--font-1);
+        font-size: 1rem;
+        color: var(--color-3);
+    }
+    .about-info h1 {
+        font-family: var(--font-3);
+        font-size: 3rem;
+        color: var(--color-4);
+    }
+    .about-info p {
+        font-family: var(--font-2);
+        text-align: justify;
+    }
+}

@@ -1,0 +1,497 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Satisfy&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --font-1: 'Satisfy', cursive;
+    --font-2: 'Poppins', sans-serif;
+    --font-3: 'Protest Revolution', sans-serif;
+    --color-1: #F8F4E1;
+    --color-2: #FED8B1;
+    --color-3: #543310;
+    --color-4: #A67B5B;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+@media screen and (max-width: 480px){
+    footer{
+        background-image: url('./bg-footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0 1rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: var(--color-4);
+    }
+    .suggestion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: var(--font-2);
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 75vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid var(--color-4);
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid var(--color-4);
+    }
+    .suggestion button{
+        font-family: var(--font-2);
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-1);
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid var(--color-4);
+        border-radius: 5px;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: var(--color-4);
+    }
+    .navigation-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .navigation-container a{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        color: var(--color-4);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: var(--color-4);
+    }
+    .social-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+    .social-container a{
+        color: var(--color-1);
+        background-color: var(--color-4);
+        padding: .4rem;
+        border-radius: 5px;
+        text-align: center;
+        border: solid var(--color-4) 2px;
+    }
+    .social-container a:hover{
+        background-color: var(--color-1);
+        color: var(--color-4);
+    }
+    .footer-end p{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-4);
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+    footer{
+        background-image: url('./bg-footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0 1rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        text-align: center;
+        color: var(--color-4);
+    }
+    .suggestion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: var(--font-2);
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 80vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid var(--color-4);
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid var(--color-4);
+    }
+    .suggestion button{
+        font-family: var(--font-2);
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-1);
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid var(--color-4);
+        border-radius: 5px;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: var(--color-4);
+    }
+    .navigation-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .navigation-container a{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.1rem;
+        color: var(--color-4);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: var(--color-4);
+    }
+    .social-container{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .social-container a{
+        color: var(--color-1);
+        background-color: var(--color-4);
+        padding: .4rem;
+        border-radius: 5px;
+        border: solid var(--color-4) 2px;
+    }
+    .social-container a:hover{
+        background-color: var(--color-1);
+        color: var(--color-4);
+    }
+    .footer-end p{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-4);
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1025px){
+    footer{
+        background-image: url('./bg-footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0 1rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2.5rem;
+        text-align: center;
+        color: var(--color-4);
+    }
+    .suggestion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: var(--font-2);
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 35vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid var(--color-4);
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid var(--color-4);
+    }
+    .suggestion button{
+        font-family: var(--font-2);
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-1);
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid var(--color-4);
+        border-radius: 5px;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: var(--color-4);
+    }
+    .navigation-container{
+        display: flex;
+        gap: 3rem;
+    }
+    .navigation-container a{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: var(--color-4);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: var(--color-4);
+    }
+    .social-container{
+        display: flex;
+        gap: 2rem;
+    }
+    .social-container a{
+        color: var(--color-1);
+        background-color: var(--color-4);
+        padding: .5rem;
+        border-radius: 5px;
+        border: solid var(--color-4) 2px;
+    }
+    .social-container a:hover{
+        background-color: var(--color-1);
+        color: var(--color-4);
+    }
+    .footer-end p{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-4);
+        text-align: center
+    }
+}
+
+@media screen and (min-width: 1025px){
+    footer{
+        background-image: url('./bg-footer.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 3rem 0 1rem 0;
+    }
+    .suggestion-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .suggestion-container h1{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 3rem;
+        text-align: center;
+        color: var(--color-4);
+    }
+    .suggestion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: .5rem;
+    }
+    .suggestion input[type=text]{
+        font-family: var(--font-2);
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        width: 35vw;
+        border: none;
+        border-radius: 5px;
+        padding: .5rem 0 .5rem .5rem;
+        border: .5px solid var(--color-4);
+        box-sizing: border-box;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        outline: none;
+    }
+    .suggestion input[type=text]:focus{
+        border: .5px solid var(--color-4);
+    }
+    .suggestion button{
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-1);
+        padding: .5rem 2rem .5rem 2rem;
+        border: .5px solid var(--color-4);
+        border-radius: 5px;
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        cursor:pointer;
+        overflow: hidden;
+    }
+    .suggestion button:hover{
+        background-color: var(--color-4);
+    }
+    .navigation-container{
+        display: flex;
+        gap: 4rem;
+    }
+    .navigation-container a{
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.2rem;
+        color: var(--color-4);
+        text-decoration: none;
+        text-transform: capitalize;
+    }
+    .navigation-container a:hover{
+        text-decoration: underline;
+        color: var(--color-4);
+    }
+    .social-container{
+        display: flex;
+        gap: 2rem;
+    }
+    .social-container a{
+        color: var(--color-1);
+        background-color: var(--color-4);
+        padding: .5rem;
+        border-radius: 5px;
+        border: solid var(--color-4) 2px;
+    }
+    .social-container a:hover{
+        background-color: var(--color-1);
+        color: var(--color-4);
+    }
+    .footer-end p{
+        font-family: var(--font-3);
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1rem;
+        color: var(--color-4);
+        text-align: center
+    }
+}
