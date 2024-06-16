@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jadesweets/static/css/main.b24c9c3f.css",
+    "main.css": "/jadesweets/static/css/main.23a24b43.css",
     "main.js": "/jadesweets/static/js/main.7836f4e9.js",
     "static/js/453.1904803f.chunk.js": "/jadesweets/static/js/453.1904803f.chunk.js",
     "static/media/macarons.webp": "/jadesweets/static/media/macarons.57d47e2c54095a93121b.webp",
@@ -17,12 +17,12 @@
     "static/media/revicons.woff": "/jadesweets/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/bg.webp": "/jadesweets/static/media/bg.fd8939c44d9430b80071.webp",
     "index.html": "/jadesweets/index.html",
-    "main.b24c9c3f.css.map": "/jadesweets/static/css/main.b24c9c3f.css.map",
+    "main.23a24b43.css.map": "/jadesweets/static/css/main.23a24b43.css.map",
     "main.7836f4e9.js.map": "/jadesweets/static/js/main.7836f4e9.js.map",
     "453.1904803f.chunk.js.map": "/jadesweets/static/js/453.1904803f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b24c9c3f.css",
+    "static/css/main.23a24b43.css",
     "static/js/main.7836f4e9.js"
   ]
 }
